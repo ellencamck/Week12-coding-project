@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs that Shed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+    <div class="container mt-5">
+        <div>
+            <h1 class="text-light">ShedTrack</h1>
+        </div>
+        <div>
+            <form>
+                <div>
+                    <label for="dog-breed-input" class="text-light">Dog Breed: </label>
+                    <input id="dog-breed-input" placeholder="Corgi">
+                </div>
+                <div>
+                    <label for="shed-level-input" class="text-light">Shed Level: </label>
+                    <input id="shed-level-input" placeholder="0 to 100">
+                </div>
+                <button id="add-dog-button" class="btn btn-warning">Add</button>
+            </form>
+        </div>
+    </div><br>
+
+    <div class="row">
+        <div class="column">
+          <img src="pit-bull.jpg" alt="Pit-Bull" >
+        </div>
+        <div class="column">
+          <img src="akita.jpg" alt="Akita" >
+        </div>
+        <div class="column">
+          <img src="brown-dog-at-beach.jpg" alt="brown-dog-at-beach" >
+        </div>
+        <div class="column">
+            <img src="corgi.jpeg" alt="Corgi">
+        </div>
+        <div class="column">
+            <img src="mini-dash.webp" alt="Mini-Dachshund" >
+        </div>
+        <div class="column">
+            <img src="bernese.jpg" alt="Bernese" >
+        </div>
+        <div class="column">
+            <img src="golden.webp" alt="Golden Retriever" >
+        </div>
+        <div class="column">
+            <img src="aus-shepperd.jpg" alt="Australian-Shepperd" >
+        </div>
+    </div><br>
+
+    <div id="dog-app" class="text-light"></div>
+    <div id="shed-container" class="text-light"></div>
+
+
+
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="dogapp.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.row {
+    display:flex;
+    justify-content: space-between;
+}
+  
+.column {
+    flex: 10%;
+}
+
+img {
+    height: 160px;
+    padding: 0.5rem;
+    width: 210px;
+}
